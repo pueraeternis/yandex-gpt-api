@@ -2,9 +2,9 @@ import logging
 import sys
 from pathlib import Path
 
-# Standard boilerplate to ensure 'src' is importable when running from the 'examples' folder
-# This allows students to run the file directly via IDE or CLI without setting PYTHONPATH manually.
-sys.path.insert(0, str(Path(__file__).resolve().parent.parent.parent))
+# --- CONFIGURATION & PATH SETUP ---
+PROJECT_ROOT = Path(__file__).resolve().parent.parent
+sys.path.insert(0, str(PROJECT_ROOT))
 
 from openai import OpenAIError
 
