@@ -23,7 +23,7 @@ A production-ready reference implementation for interacting with YandexGPT (Yand
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/your-username/yandex-gpt-starter.git
+   git clone https://github.com/pueraeternis/yandex-gpt-api.git
    cd yandex-gpt-starter
    ```
 
